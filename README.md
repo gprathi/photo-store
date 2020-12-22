@@ -4,5 +4,7 @@
 ## Project Overview
 
 E-Commerce Image site like picsum or Unsplash.
-Preview Image selection , Favorit them and add the images to cart.
-Upon Checkout, cart images are printed and shipped out to the customers
+1. Preview Image selection ,
+2. Favorite the image selection
+3. Add the images to cart.
+4. Upon Checkout, cart images are printed and shipped out to the customers
