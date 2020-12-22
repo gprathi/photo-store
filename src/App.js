@@ -1,9 +1,24 @@
-import './App.css';
+import Header from "./components/Header";
+import { Link, Switch, Route } from "react-router-dom";
+import Cart from "./pages/Cart";
+import Photos from "./pages/Photos";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      Photo Store
+      <Header />
+
+      <Switch>
+        <Route exact path="/">
+          {" "}
+          <Photos />{" "}
+        </Route>
+        <Route path="/cart">
+          {" "}
+          <Cart />{" "}
+        </Route>
+      </Switch>
     </div>
   );
 }
