@@ -59,11 +59,13 @@ div.order-button > button:disabled {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
+  max-height: 20%;
 }
 
 .cart-item img {
   margin-right: auto;
   margin-left: 10px;   
+  
 }
 
 img.image-grid {
